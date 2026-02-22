@@ -1,288 +1,78 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Docs](https://img.shields.io/badge/Docs-Complete-blue)
-![Local First](https://img.shields.io/badge/Local-First-green)
-![Offline](https://img.shields.io/badge/Offline-Ready-brightgreen)
-![Theme Agnostic](https://img.shields.io/badge/Theme-Agnostic-purple)
-![Family Federation](https://img.shields.io/badge/Family-Federation-orange)
+<p align="center">
+  <img src="Assets/Logo_Male_Panda_Adult.jpg" width="220" />
+</p>
+
+<p align="center">
+
+  <img src="https://img.shields.io/badge/Role-Sovereign%20AI%20Companion-blue" />
+  <img src="https://img.shields.io/badge/Local‑First-green" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  <img src="https://img.shields.io/badge/Status-Active-success" />
+
+</p>
+
+---
 
 # 🐼 Spirit Panda  
-### A Sovereign, Local‑First AI Companion Framework for Families, Creators, and Themed Worlds
+### Sovereign AI Companion • Identity‑Driven • Local‑First
 
-Spirit Panda is not just an AI assistant.  
-It is a **fully modular, theme‑agnostic framework** for building sovereign, local‑first AI companions that run entirely on-device — private, resilient, expressive, and deeply customizable.
+Spirit Panda is the **primary node** of the Panda Federation — a sovereign, local‑first AI companion with a full identity system, adaptive prosody, memory, and a deeply personalized soul.
 
-The “panda” identity is simply one example.  
-You can re‑skin this system into **any persona, any theme, any universe**, from a family mentor to a Pip‑Boy‑style wrist AI.  
-Voices, personalities, aesthetics, and behaviors are all modular.
-
-This project is built for families, creators, and tinkerers who want an AI that is:
-
-- **local-first**  
-- **privacy-respecting**  
-- **theme-flexible**  
-- **persona-driven**  
-- **voice-modular**  
-- **resilient and self-healing**  
-- **fully offline-capable**  
-- **understandable and maintainable**  
-
-Spirit Panda is the foundation for a future where every household — and every individual — can have a personalized AI companion aligned with their values, identity, and imagination.
+Built for workflow support, emotional grounding, and family‑centric automation, Spirit Panda is designed to be **expressive, stable, and entirely yours**.
 
 ---
 
 # 🌟 Features
 
-### **🧬 Theme-Agnostic Architecture**
-The panda theme is optional.  
-Swap in any persona, aesthetic, or lore layer you want.
+### 🧬 **Identity System**
+- Personality, lore, and emotional tone  
+- Gendered crest and visual identity  
+- Configurable “soul” file defining behavior and values  
 
-### **🔊 Native Piper TTS Integration**
-Fast, expressive, local text-to-speech with custom voices.
+### 🧠 **Memory & Context**
+- Persistent memory  
+- Long‑context conversation support  
+- Personalized responses based on user history  
 
-### **🎙️ Adaptive Prosody Engine**
-Emotion-aware pacing, emphasis, and tone shaping.
+### 🔊 **Adaptive Prosody Pipeline**
+- Custom voice tuning  
+- Emotional storytelling mode  
+- Calm, grounded conversational mode  
+- Movie‑narrator deep male voice (user‑defined)  
 
-### **🛠️ Modernized DSP Pipeline**
-Clean, refactored audio processing with deterministic behavior.
+### 🛡️ **Resilience & Stability**
+- Works with Watchdog Panda for uptime  
+- Auto‑restart support  
+- Local‑first execution (Termux‑friendly)  
 
-### **🛡️ Resilience & Self-Healing**
-Watchdog loops, auto-restart, boot-time launch, and crash recovery.
-
-### **📱 Termux-Based Android Node**
-Runs fully on-device with no cloud dependencies.
-
-### **📚 Full Documentation**
-Architecture, philosophy, rebuild guides, and more.
-
-### **👨‍👩‍👧 Family Federation Ready**
-Supports multi-agent ecosystems with privacy boundaries and shared insights.
+### 🧩 **Modular Architecture**
+- Configurable system prompt  
+- Swappable voice engines  
+- Expandable behavior modules  
+- Future Telegram integration  
 
 ---
 
-# 🧭 Quickstart
+# 🏗 Architecture Overview
 
-### 1. Install Termux (from F‑Droid)
+See `docs/index.md` for full details.
 
-pkg update && pkg upgrade
-termux-setup-storage
+### Core Components:
+- `soul/` — identity, personality, values  
+- `config/` — system settings  
+- `voice/` — prosody pipeline, TTS configuration  
+- `memory/` — persistent memory storage  
+- `scripts/` — launchers, utilities  
+- `assets/` — Spirit Panda crest and branding  
 
-### 2. Install dependencies
+Spirit Panda is designed to be **transparent, modular, and fully user‑controlled**.
 
-pkg install git python ffmpeg sox clang make cmake rust openssl wget curl
+---
 
-### 3. Clone the project
+# 🚀 Quickstart
 
-git clone https://github.com/pandadad0214/spirit-panda.git (github.com in Bing)
+```bash
+git clone https://github.com/pandadad0214/spirit-panda.git
 cd spirit-panda
-
-### 4. Build Piper
-
-cd voice/piper
-mkdir build && cd build
-cmake ..
-make -j$(nproc)
-
-### 5. Add your voice models  
-Place `.onnx` files into:
-
-voice/piper/models/
----
-
-# 🧱 Documentation
-
-All documentation lives in the `docs/` directory.
-
-### **Architecture**
-- Termux Environment  
-- Piper Native Build Notes  
-- Adaptive Prosody Pipeline  
-- DSP Modernization  
-- Resilience Patterns  
-- Rebuild Guide  
-
-### **Philosophy**
-- Family Federation Vision  
-- Sovereignty Principles  
-- Local-First AI Ethics  
-
----
-
-# 🎨 Theming & Persona Customization
-
-Spirit Panda is designed to be **fully re-skinnable**.
-
-You can change:
-
-- voice  
-- personality  
-- lore  
-- aesthetic  
-- emotional palette  
-- prosody profile  
-- name  
-- iconography  
-- behavior patterns  
-
-Examples of possible themes:
-
-- Pip‑Boy wrist AI  
-- Cyberpunk street companion  
-- Starfleet tricorder assistant  
-- Dragon mentor  
-- Retro robot  
-- Anime companion  
-- Viking shield‑spirit  
-- Witchlight familiar  
-- Noir detective  
-- Family mentor  
-- Child learning buddy  
-
-The architecture stays the same — the identity is yours to define.
-
----
-
-# 🛡️ Philosophy
-
-Spirit Panda is built on:
-
-- **Sovereignty** — You own your AI.  
-- **Privacy** — No cloud. No telemetry.  
-- **Resilience** — Self-healing, auto-restarting, stable.  
-- **Transparency** — Understandable, documented, modifiable.  
-- **Family Alignment** — Designed for multi-agent ecosystems.  
-
-This is not a product.  
-It is a **blueprint for personal AI autonomy**.
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!  
-Please read:
-
-- `CONTRIBUTING.md`  
-- `CODE_OF_CONDUCT.md`  
-
-before submitting issues or PRs.
-
----
-
-# 📜 License
-
-This project is licensed under the **MIT License**.  
-See `LICENSE` for details.
-
----
-
-# 🐼 Status
-
-Active development.  
-Rapid evolution.  
-Documented as it grows.
-
-This is the beginning of a sovereign AI ecosystem —  
-one that any family, creator, or community can shape into their own.
-
-### 6. Start the system
-
-./scripts/start.sh
-
-
----
-
-# 🧱 Documentation
-
-All documentation lives in the `docs/` directory.
-
-### **Architecture**
-- Termux Environment  
-- Piper Native Build Notes  
-- Adaptive Prosody Pipeline  
-- DSP Modernization  
-- Resilience Patterns  
-- Rebuild Guide  
-
-### **Philosophy**
-- Family Federation Vision  
-- Sovereignty Principles  
-- Local-First AI Ethics  
-
----
-
-# 🎨 Theming & Persona Customization
-
-Spirit Panda is designed to be **fully re-skinnable**.
-
-You can change:
-
-- voice  
-- personality  
-- lore  
-- aesthetic  
-- emotional palette  
-- prosody profile  
-- name  
-- iconography  
-- behavior patterns  
-
-Examples of possible themes:
-
-- Pip‑Boy wrist AI  
-- Cyberpunk street companion  
-- Starfleet tricorder assistant  
-- Dragon mentor  
-- Retro robot  
-- Anime companion  
-- Viking shield‑spirit  
-- Witchlight familiar  
-- Noir detective  
-- Family mentor  
-- Child learning buddy  
-
-The architecture stays the same — the identity is yours to define.
-
----
-
-# 🛡️ Philosophy
-
-Spirit Panda is built on:
-
-- **Sovereignty** — You own your AI.  
-- **Privacy** — No cloud. No telemetry.  
-- **Resilience** — Self-healing, auto-restarting, stable.  
-- **Transparency** — Understandable, documented, modifiable.  
-- **Family Alignment** — Designed for multi-agent ecosystems.  
-
-This is not a product.  
-It is a **blueprint for personal AI autonomy**.
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!  
-Please read:
-
-- `CONTRIBUTING.md`  
-- `CODE_OF_CONDUCT.md`  
-
-before submitting issues or PRs.
-
----
-
-# 📜 License
-
-This project is licensed under the **MIT License**.  
-See `LICENSE` for details.
-
----
-
-# 🐼 Status
-
-Active development.  
-Rapid evolution.  
-Documented as it grows.
-
-This is the beginning of a sovereign AI ecosystem —  
-one that any family, creator, or community can shape into their own.
+chmod +x start.sh
+./start.sh
