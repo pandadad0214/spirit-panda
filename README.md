@@ -1,3 +1,10 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Docs](https://img.shields.io/badge/Docs-Complete-blue)
+![Local First](https://img.shields.io/badge/Local-First-green)
+![Offline](https://img.shields.io/badge/Offline-Ready-brightgreen)
+![Theme Agnostic](https://img.shields.io/badge/Theme-Agnostic-purple)
+![Family Federation](https://img.shields.io/badge/Family-Federation-orange)
+
 # 🐼 Spirit Panda  
 ### A Sovereign, Local‑First AI Companion Framework for Families, Creators, and Themed Worlds
 
